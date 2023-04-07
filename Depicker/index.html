@@ -1,0 +1,246 @@
+<!--File HTML-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> DEPICKER PALETTE </title>
+
+	<!--Icon logo-->
+	<link rel="icon" href="icons/Logo Depickers.png" type="image/x icon">
+
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+	<!--Link ke css-->
+	<link rel="stylesheet" href="main.css" />
+
+	<!--Color Code library-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+	</script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/js/bootstrap-colorpicker.js"> </script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/js/bootstrap-colorpicker.min.js"> </script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/css/bootstrap-colorpicker.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/css/bootstrap-colorpicker.css" />
+
+</head>
+
+<body>
+	<main>
+		<h1> COLOR DEPICKER PALETTE</h1>
+		<p>
+			Tekan <button class="generator-button"> Random </button> untuk fitur random warna atau tekan Color Code
+			untuk mengetahui kode warna
+		</p>
+
+		<!--Color Code-->
+		<div class="container">
+			<input id="color-picker" type="text" placeholder="Color Code" />
+			<script>
+				$(function () {
+					$('#color-picker').colorpicker();
+				});
+			</script>
+		</div>
+
+		<br> <br>
+		<h4> Palette Warna </h4>
+
+		<!--pallete warna-->
+		<div class="colours">
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+			<div class="colour">
+				<button class="lock-toggle">
+					<img src="icons/lock-open.svg" />
+				</button>
+
+				<input type="text" class="colour-input" value="#000000" />
+				<button class="copy-hex"> Copy </button>
+			</div>
+
+		</div>
+
+		<!-- Eye dropper -->
+		<br> <br> <br> <br> <br>
+		<h4> Eye Dropper Tool's </h4>
+		<p>
+			Klik icon lingkaran untuk fitur eye dropper lalu arahkan kursor ke tempat yang ingin dicari kode RGB nya
+		</p>
+		<div class="container2">
+			<div class="inner">
+				<h1 class="heading"> EYE DROPPER </h1>
+				<buton class="btn">
+					<svg class="btn_icon" role="img" alt="eye dropper" height="100px" width="100px">
+						<img src="icons/eye2.svg" />
+					</svg>
+				</buton>
+				<p class="info"> Pilih warna : <br> <strong> <span class="hex-info"> Warna belum dipilih
+							!</span></strong></p>
+			</div>
+			<div class="palette">
+				<div class="swatch"></div>
+				<div class="swatch"></div>
+				<div class="swatch"></div>
+				<div class="swatch"></div>
+				<div class="swatch"></div>
+				<div class="swatch"></div>
+			</div>
+		</div>
+
+		<!--Image color picker-->
+		<br> <br> <br> <br> <br>
+		<h4> Image Color Picker </h4>
+		<p>
+			Kilk <b> UPLOAD IMAGE </b> untuk upload foto dari gallery atau klik <b> PILIH WARNA </b> untuk
+			mengetahui kode warna dari image yang barusan di upload
+		</p>
+		<div class="wrapper">
+			<div class="image-container">
+				<img id="image" src="icons/ocean.jpg" />
+			</div>
+			<div class="btns-container">
+				<input type="file" id="file" accesskey="image/*" />
+				<label for="file"> UPLOAD IMAGE </label>
+				<button id="pick-color"> PILIH WARNA </button>
+			</div>
+			<div id="error" class="hide"> </div>
+			<div id="result" class="hide">
+				<div>
+					<input type="text" id="hex-val-ref" />
+					<button onclick="copy('hex-val-ref')">
+						<i class="fa-regular fa-copy"> </i>
+					</button>
+				</div>
+				<div>
+					<input type="text" id="rgb-val-ref" />
+					<button onclick="copy('rgb-val-ref')">
+						<i class="fa-regular fa-copy"> </i>
+					</button>
+				</div>
+				<div id="picked-color-ref"> </div>
+			</div>
+			<div id="custom-alert"> Warna tersimpan ke clipboard </div>
+		</div>
+
+		<footer class="">
+			<p>Copyright 2022 | All Rights Reserved<br />
+			<a href="https://github.com/firouzdimas?tab=repositories" re="nofollow" target="_blank">Made by Dimas Sadewo</a></p>
+		</footer>
+	
+	</main>
+
+	<!--link ke js-->
+	<script src="main.js"> </script>
+	<script src="script.js"> </script>
+
+</body>
+
+</html>
